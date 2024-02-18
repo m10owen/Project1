@@ -6,14 +6,51 @@
     <title>Home Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+<style> 
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    display: flex; 
+    background-color: #333;
+    color: white; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+     height: 2.5rem;
+}
+
+img{
+    animation: beat .35s infinite alternate;
+}
+
+@keyframes beat{
+	to { transform: scale(1.4); }
+}
+</style>
 <body>
     <nav><div class="logo">Logo</div>
         <ul >
-        <li><a href="">Home</a></li>
-        <li><a href="">About Me</a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href="">Images</a></li>
+        <li><a href="index.html"><strong>Home</strong></a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="images.html">Images</a></li>
         </ul>
         </nav>
+        <article>
+            <h1>Mark Owen</h1>
+            <br>
+            <br>
+            <img src="Family Image.jpg" alt="Family Photo" width="500px" height="250px"> 
+
+        </article>
+        <footer>
+            Created by Mark Owen. 
+        </footer>
 </body>
 </html>

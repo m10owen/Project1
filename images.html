@@ -4,8 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Images</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+    footer{
+    display: flex; 
+    background-color: #333;
+    color: white; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+     height: 2.5rem;
+}
+
+
+
+  .hockey { padding: 20px; 
+    
+  }
+
+  .dog { padding: 20px; 
+ 
+  }
+
+
+  .family { padding: 20px; 
+    }
+
+    .box {
+       justify-content: space-between;
+    }
+
+
+    </style>
 </head>
 <body>
-    
+    <nav><div class="logo">Logo</div>
+        <ul >
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="images.html"><strong>Images</strong></a></li>
+        </ul>
+        </nav>
+        <article>
+            <h1>Images</h1>
+            <section class="flex-container" >
+            
+                <div class="flex-item hockey box"><img src="Hockey Image.jpg" alt="hockey picture" width="150" height="150">
+                <br> <p>Image of me playing hockey.</p></div>
+                
+                <div class="flex-item dog box"><img src="Ranger.jpg" alt="Ranger Picture" width="150" height="150">
+                    <br> <p>Image of my dog Ranger.</p></div>
+                
+                <div class="flex-item family box"><img src="Family Image.jpg" alt="Family picture" width="150" height="150">
+                    <br> <p>Image of my family and I.</p></div>
+            </section>
+        </article>
+        <footer> Created by Mark Owen. </footer>
 </body>
 </html>

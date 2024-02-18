@@ -2,33 +2,68 @@
 
 nav{
     display: flex; 
-    flex-direction: row;
     background-color: #333;
     color: white; 
     justify-content: space-between;
     align-items: center;
 }
 
-
-nav ul {
-    display: flex; 
-    flex-direction: row;
-  
-   
+a:hover {
+    background-color: lightslategray;
+    color: lightgray;
 }
 
-a {    
-    
-    justify-content: space-between;
+
+a {
+        
     color: white; 
     text-decoration: none;
     padding: 10px; 
 }
+    
 
-a:hover {
-    color: lightgray;
+ul {
+display: flex; 
+justify-content: row;
+justify-content: space-between;
+list-style-type: none;
 }
+
+
 
 .logo {
     padding-left: 10px;
 }
+
+article {
+    display: flex;
+    background-color: lightcyan;
+
+}
+
+body {
+    background-color: lightcyan;
+
+}
+
+.Content {
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 2px solid black; 
+    padding: 10px; 
+}
+
+.flex-container {display: flex;
+    justify-content: center;
+    z-index: 0; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+#blogContent {
+    border: 2px solid black; 
+    padding: 10px;
+}
+
+
